@@ -1,0 +1,525 @@
+/*header*/
+.header {
+    position: absolute;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(232, 181, 123, 0.45)),
+                        url("https://i.pinimg.com/1200x/83/3b/9d/833b9d4e750f95721148172fd74c1f05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header img {
+    position: absolute;
+    top:-100px;
+    left: 8px;
+    width: 230px;
+    height: auto;
+}
+
+/*footer*/
+.footer{
+    position: absolute;
+    margin-top: 20px;
+    background-image: linear-gradient(rgba(207, 76, 109, 0.45)),
+                        url("https://i.pinimg.com/1200x/83/3b/9d/833b9d4e750f95721148172fd74c1f05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*navbar*/
+.navbar {
+    background: linear-gradient(180deg, #ffe8c4, #eea1ac);
+
+}
+.navbar a {
+    display: block;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "Lucida Console", monospace;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ffe8c4, #eea1ac);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    border:#784550;
+    border-style: solid;
+    border-width: 3px;
+}
+.navbar a:link {
+    color: #5b3421;
+}
+.navbar a:visited {
+    color: #a34368;
+}
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+    background: #a34368;
+    color: #ffe3e4;
+}
+
+/*acitivities*/
+.activities {
+    background-image: linear-gradient(rgb(232, 181, 123, 0.45), rgb(207, 76, 109, 0.45)),
+                    url("https://i.pinimg.com/736x/87/ac/5e/87ac5e709319c944f78b10db3dde983c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.activities h1 {
+    display: inline-block;
+    font-family: "Lucida Console", console;
+    color: #a34368;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold; 
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:#a34368;
+    border-style: double;
+    border-width: 5px;
+    text-shadow: 2px 2px 4px #a16565;
+}
+.activities img {
+    display: block;
+    width: 400x;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border:#a34368;
+    border-style: solid;
+    border-width: 5px;
+}
+.activities p {
+    display: inline-block;
+    font-family: "Lucida Calligraphy", cursive;
+    color:#ffcce0;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:#a34368;
+    padding: 5px 15px;
+    border:#c7879a;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+/*exercise*/
+.exercises {
+    background-image: linear-gradient(rgb(232, 181, 123, 0.45), rgb(207, 76, 109, 0.45)),
+                    url("https://i.pinimg.com/736x/87/ac/5e/87ac5e709319c944f78b10db3dde983c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.exercises h1 {
+    display: inline-block;
+    font-family: "Lucida Console", console;
+    color: #a34368;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold; 
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:#a34368;
+    border-style: double;
+    border-width: 5px;
+    text-shadow: 2px 2px 4px #a16565;
+}
+.exercises img {
+    display: block;
+    width: 400x;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border:#a34368;
+    border-style: solid;
+    border-width: 5px;
+}
+.exercises p {
+    display: inline-block;
+    font-family: "Lucida Calligraphy", cursive;
+    color:#ffcce0;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:#a34368;
+    padding: 5px 15px;
+    border:#c7879a;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+/*homepage*/
+.homepage {
+    background-image:
+        linear-gradient(rgb(232, 181, 123, 0.45), rgb(207, 76, 109, 0.45)),
+        url("https://i.pinimg.com/736x/97/07/08/97070806e34526845a1320e4337df5d7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.homepage img{
+    width: 500px;
+    height: 500px;
+    margin-top: -100px;
+}
+.homepage h1 {
+    color:#fff9f9;
+    font-family: "Courier new", monospace;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -80px;
+    text-shadow: 2px 2px 4px #a16565;
+}
+.homepage a {
+    display: inline-block;
+    margin-top: -100px;
+    font-size: 20px;
+    font-family: "Lucida Console", monospace;
+    background: linear-gradient(135deg, #ffe8c4, #eea1ac);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    border:#fff9f9;
+    border-style: solid;
+    border-width: 3px;
+    color:#a85677;
+}
+.homepage a:hover {
+    background-color: #fcfafb;
+    color:#fefefe;
+}
+
+/*Contacts*/
+.links{
+    background: linear-gradient(180deg, #ffe8c4, #eea1ac);
+
+}
+.links p{
+    font-family: "Times New Roman", serif;
+    color: #a34368;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+.links a{
+    display: inline-block;
+    font-family: "Times New Roman", serif;
+    color: #a34368;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 10px;
+    border:#a34368;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+/*history*/
+.history {
+    background-image: linear-gradient(rgb(232, 181, 123, 0.60), rgb(207, 76, 109, 0.60)),
+                    url("https://i.pinimg.com/736x/13/76/7b/13767b8121c3e96e5d5c407a1d576c73.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.history h1 {
+    display: inline-block;
+    font-family: "Lucida Console", console;
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    background-color:rgba(206, 149, 168, 0.6); 
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #a16565;
+}
+.history img {
+    width: 400px;
+    height:300px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    border:#a34368;
+    border-style: solid;
+    border-width: 5px;
+}
+.history p {
+    font-family: "Times New Roman", serif;
+    color:#ffffff;
+    font-size: 25px;
+    
+}
+
+/*Org Chart*/
+.orgChart{
+    background-image: linear-gradient(rgb(232, 181, 123, 0.60), rgb(207, 76, 109, 0.60)),
+                    url("https://i.pinimg.com/736x/13/76/7b/13767b8121c3e96e5d5c407a1d576c73.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.orgChart img{
+    width: 300px;
+    height:300px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 180px;
+    border:#a34368;
+    border-style: solid;
+    border-width: 5px;
+}
+.orgChart h1{
+    display: inline-block;
+    font-family: "Lucida Console", console;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+    background-color:rgba(206, 149, 168, 0.6); 
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:#a34368;
+    border-style: double;
+    border-width: 5px;
+    text-shadow: 2px 2px 4px #a16565;
+}
+.orgChart p{
+    font-family: "Times New Roman", serif;
+    color:#ffffff;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+/*Profile*/
+.profile{
+    background-image: linear-gradient(rgb(232, 181, 123, 0.60), rgb(207, 76, 109, 0.60)),
+                    url("https://i.pinimg.com/736x/13/76/7b/13767b8121c3e96e5d5c407a1d576c73.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.profile h1{
+    display: block;
+    font-family: "Lucida Console", console;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color:rgba(207, 125, 156, 0.797); 
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:#a34368;
+    border-style: double;
+    border-width: 5px;
+    text-shadow: 2px 2px 4px #a16565;
+}
+.profile p{
+    display: inline-block;
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ffe8c4, #eea1ac);
+    border:#a34368;
+    border-style: double;
+    border-width: 5px;
+}
+.profile h3{
+    display: inline-block;
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ffe8c4, #eea1ac);
+    text-align: justify;
+    margin-left: 10px;
+    border:#a34368;
+    border-style: double;
+    border-width: 5px;
+}
+.profile .initial{
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#ff0066;
+}
+
+/*Services*/
+.services{
+    background-image: linear-gradient(rgb(232, 181, 123, 0.60), rgb(207, 76, 109, 0.60)),
+                    url("https://i.pinimg.com/736x/5a/9e/9a/5a9e9a0ea7c6e7edca45f45019222e39.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    width: min(90%, 1000px);
+    margin: 40px auto;
+}
+
+.service-container {
+    min-height: 250px;
+    border: 3px solid #a34368;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ffe8c4, #eea1ac);
+    border:#a34368;
+    border-style: double;
+    border-width: 5px;
+}
+.services p{
+    display: inline-block;
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-bottom: 60px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    
+}
+.services h1{
+    display: inline-block;
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 30px 30px;
+    
+}
+
+
+/*Contacts*/
+.contacts{
+    background-image: linear-gradient(rgb(232, 181, 123, 0.60), rgb(207, 76, 109, 0.60)),
+                    url("https://i.pinimg.com/736x/13/76/7b/13767b8121c3e96e5d5c407a1d576c73.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.contacts-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    width: min(90%, 900px);
+    margin: 10px auto;
+}
+.contact-container {
+    min-height: -50px;
+    border: 3px solid #a34368;
+    border-radius: 40px;
+    background: linear-gradient(135deg, #ffe8c4, #eea1ac);
+    border:#a34368;
+    border-style: double;
+    border-width: 15px;
+}
+.contacts p{
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 30px;
+    padding: 30px 30px;
+    margin-top: -50px;
+    
+}
+.contacts h1{
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 30px 30px;
+    
+}
+.contacts h2{
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 35px;
+    padding: 10px 10px;
+}
+.contacts h3{
+    font-family: "Times New Roman", serif;
+    color:#a34368;
+    font-size: 25px;
+    padding: 30px 30px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    font-weight: normal;
+}
+
+/*Feedback*/
+.feedback{
+    background-image: linear-gradient(rgb(232, 181, 123, 0.60), rgb(207, 76, 109, 0.60)),
+                    url("https://i.pinimg.com/1200x/48/0e/b1/480eb1d176c5bf33fa2a3a4ce81bb696.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.feedback img{
+    width: 1000px;
+    height:200px;
+    display: block;
+    margin: 60px auto; 
+    border-radius: 20px;
+    border:#a34368;
+    border-style: solid;
+    border-width: 5px;
+}
+.feedback a{
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: "Lucida Console", monospace;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ffe8c4, #eea1ac);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    border:#784550;
+    border-style: solid;
+    border-width: 3px;
+    color:#784550;
+}
